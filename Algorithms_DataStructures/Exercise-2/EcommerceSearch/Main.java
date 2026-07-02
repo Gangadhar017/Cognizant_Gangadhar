@@ -15,9 +15,12 @@ public class Main {
         Arrays.sort(sortedProducts, Comparator.comparingInt(Product::getProductId));
 
         int searchProductId = 104;
+        int missingProductId = 999;
 
         printResult("Linear Search", SearchOperations.linearSearch(products, searchProductId));
         printResult("Binary Search", SearchOperations.binarySearch(sortedProducts, searchProductId));
+        printResult("Missing Product Search", SearchOperations.binarySearch(sortedProducts, missingProductId));
+        printComplexitySummary();
     }
 
     private static void printResult(String title, Product product) {
@@ -30,5 +33,11 @@ public class Main {
         }
 
         System.out.println("---------------------------");
+    }
+
+    private static void printComplexitySummary() {
+        System.out.println("Time Complexity");
+        System.out.println("Linear Search: O(n)");
+        System.out.println("Binary Search: O(log n)");
     }
 }
