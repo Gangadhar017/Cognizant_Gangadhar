@@ -53,3 +53,37 @@ Algorithms_DataStructures/
 Linear search checks each product one by one and works on both sorted and unsorted arrays.
 
 Binary search repeatedly divides the search space in half, so it is faster for large datasets. It requires the product array to be sorted by product ID.
+
+## How to Run
+
+From the `Algorithms_DataStructures/Exercise-2/EcommerceSearch` folder:
+
+```bash
+javac *.java
+java Main
+```
+
+## Expected Output
+
+```text
+Linear Search
+Product ID: 104
+Product Name: Monitor
+Category: Electronics
+---------------------------
+Binary Search
+Product ID: 104
+Product Name: Monitor
+Category: Electronics
+---------------------------
+Missing Product Search
+Product not found
+---------------------------
+Time Complexity
+Linear Search: O(n)
+Binary Search: O(log n)
+```
+
+## Conclusion
+
+Linear search is simple and works well for small or unsorted datasets. Binary search is more suitable for large product catalogs because it has O(log n) time complexity, but the products must be sorted before searching.
