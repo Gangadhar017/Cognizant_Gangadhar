@@ -1,0 +1,23 @@
+Reminder
+
+Customer : John
+Loan ID : 501
+Due Date : 18-JUL-2026
+
+Reminder
+
+Customer : David
+Loan ID : 503
+Due Date : 28-JUL-2026
+
+Reminder
+
+Customer : Emma
+Loan ID : 504
+Due Date : 13-JUL-2026
+
+Reminder
+
+Customer : Robert
+Loan ID : 505
+Due Date : 08-JUL-2026
