@@ -1,0 +1,3 @@
+Customer 101 promoted to VIP.
+Customer 103 promoted to VIP.
+Customer 105 promoted to VIP.
